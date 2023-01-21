@@ -1,8 +1,7 @@
 public class HelloXwing {
     /**
-     * Returns a String containing a X-Wing ASCII-Art
-     *
-     * @return Ascii-Art String of an X-Wing
+     * NAME: Henry Stem-Faulk
+     * DATE: 1/20/2022
      */
     static String xwing() {
         return """
@@ -28,5 +27,6 @@ public class HelloXwing {
     }
 
     public static void main(String[] args) {
+        System.out.println(HelloXwing.xwing());
     }
 }
